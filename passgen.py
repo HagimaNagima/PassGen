@@ -11,7 +11,7 @@ import argparse
 
 def printPasswords(passwords):
 	for password in passwords:
-		print password
+		print (password)
 	print '%s passwords generated.' % len(passwords)
 
 def writePasswordsToClipboard(passwords):
